@@ -41,6 +41,10 @@ body .sneakers header .header_info {
   gap: 56px;
 }
 
+body .sneakers header .header_info .gamb {
+  display: none;
+}
+
 body .sneakers header .header_info ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -63,7 +67,382 @@ body .sneakers header .header_sneakers {
   gap: 46px;
 }
 
-body .sneakers header .header_sneakers img, body .sneakers header .header_sneakers .acount {
+body .sneakers header .header_sneakers img,
+body .sneakers header .header_sneakers .acount {
   cursor: pointer;
+}
+
+body .sneakers main {
+  margin-top: 90px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .sneakers main .main_imgs {
+  max-width: 445px;
+  width: 100%;
+}
+
+body .sneakers main .main_imgs .top_img img {
+  width: 445px;
+  height: 445px;
+}
+
+body .sneakers main .main_imgs .bottom_imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  margin-top: 32px;
+}
+
+body .sneakers main .main_imgs .bottom_imgs img {
+  border-radius: 10px;
+  width: 88px;
+  height: 88px;
+}
+
+body .sneakers main .main_imgs .bottom_imgs :nth-child(1) {
+  border: 2px solid #fa6e03;
+  opacity: 0.5;
+}
+
+body .sneakers main .main_info {
+  margin-top: 62px;
+  max-width: 445px;
+  width: 100%;
+  margin-left: 15px;
+}
+
+body .sneakers main .main_info .company_name {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16.12px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #ff7e1b;
+}
+
+body .sneakers main .main_info h1 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  padding-top: 27px;
+}
+
+body .sneakers main .main_info .description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  opacity: 0.5;
+  padding-top: 32px;
+}
+
+body .sneakers main .main_info .prices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .sneakers main .main_info .prices .sale {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .sneakers main .main_info .prices .sale div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+}
+
+body .sneakers main .main_info .prices .sale div p {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+}
+
+body .sneakers main .main_info .prices .sale div :nth-child(1) {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34.73px;
+  text-align: left;
+}
+
+body .sneakers main .main_info .prices .sale div :nth-child(2) {
+  padding: 6px;
+  background: #ffeee2;
+  border-radius: 5px;
+  color: #ff7e1b;
+}
+
+body .sneakers main .main_info .prices .sale .sale_price {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+body .sneakers main .main_info .prices .timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ff7e1b;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.84px;
+  text-align: left;
+  font-size: 23px;
+  gap: 3px;
+}
+
+body .sneakers main .main_info .prices .timer div {
+  padding: 6px 8px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.84px;
+  text-align: left;
+  color: #ff7e1b;
+  border-radius: 10px;
+  background: #ffeee2;
+}
+
+body .sneakers main .main_info .buy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+body .sneakers main .main_info .buy .count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.84px;
+  text-align: left;
+  color: #69707d;
+  width: 157px;
+  height: 57px;
+  background: #f6f8fd;
+  border-radius: 10px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .sneakers main .main_info .buy .count .minus,
+body .sneakers main .main_info .buy .count .plus {
+  font-size: 25px;
+  color: #fa6e03;
+}
+
+body .sneakers main .main_info .buy .count .number {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.84px;
+  text-align: center;
+  color: black;
+}
+
+body .sneakers main .main_info .addCard {
+  width: 272px;
+  height: 56px;
+  top: 370px;
+  left: 173px;
+  gap: 0px;
+  opacity: 0px;
+  background: #ff7e1b;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.84px;
+  text-align: left;
+  color: white;
+  cursor: pointer;
+  gap: 15px;
+}
+
+@media (max-width: 1110px) {
+  body .sneakers header .header_info .logo {
+    margin-left: 24px;
+  }
+  body .sneakers header .header_sneakers .acount img {
+    margin-right: 24px;
+  }
+}
+
+@media (max-width: 920px) {
+  body .sneakers main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 0;
+  }
+  body .sneakers main .main_imgs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 920px;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .sneakers main .main_imgs .top_img {
+    max-width: 920px;
+    max-height: 550px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  body .sneakers main .main_imgs .top_img img {
+    width: 100%;
+    height: 100%;
+  }
+  body .sneakers main .main_info {
+    max-width: 720px;
+    width: 100%;
+  }
+  body .sneakers main .main_info .prices {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    gap: 24px;
+  }
+  body .sneakers main .main_info .prices .sale {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 25px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .sneakers main .main_info .prices .sale div {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .sneakers main .main_info .buy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 25px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .sneakers main .main_info .buy .count, body .sneakers main .main_info .buy .addCard {
+    max-width: 327px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+  body .sneakers header {
+    height: 68px;
+  }
+  body .sneakers header .header_info {
+    gap: 16px;
+  }
+  body .sneakers header .header_info .logo {
+    margin-left: 0;
+  }
+  body .sneakers header .header_info .gamb {
+    display: block;
+    margin-left: 24px;
+  }
+  body .sneakers header .header_info ul li {
+    display: none;
+  }
+  body .sneakers header .header_sneakers {
+    gap: 22px;
+  }
+  body .sneakers header .header_sneakers .acount img {
+    height: 24px;
+  }
+}
+
+@media (max-width: 450px) {
+  body .sneakers main .main_imgs .bottom_imgs {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
